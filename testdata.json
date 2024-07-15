@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "operation" : "add",
+        "num1" : "2",
+        "num2" : "3",
+        "result" : "Result: 5"
+    },
+    {
+        "id": 2,
+        "operation" : "add",
+        "num1" : "-2",
+        "num2" : "3",
+        "result" : "Result: 1"
+    },
+    {
+        "id": 3,
+        "operation" : "add",
+        "num1" : "1.0000001",
+        "num2" : "1.0000001",
+        "result" : "Result: 2.0000002"
+    },
+    {
+        "id": 4,
+        "operation" : "add",
+        "num1" : "1.00000001",
+        "num2" : "1.00000001",
+        "result" : "Result: 2"
+    },
+    {
+        "id": 5,
+        "operation" : "add",
+        "num1" : "1e-8",
+        "num2" : "1e-8",
+        "result" : "Result: 0.00000002"
+    },
+    {
+        "id": 6,
+        "operation" : "add",
+        "num1" : "1e8",
+        "num2" : "1e8",
+        "result" : "Result: 200000000"
+    },
+    {
+        "id": 7,
+        "operation" : "add",
+        "num1" : "1e8",
+        "num2" : "-1e8",
+        "result" : "Result: 0"
+    },
+    {
+        "id": 8,
+        "operation" : "add",
+        "num1" : "1.000000009",
+        "num2" : "1.000000009",
+        "result" : "Result: 2.00000002"
+    },
+    {
+        "id": 9,
+        "operation" : "add",
+        "num1" : "1.123456789",
+        "num2" : "1.000000009",
+        "result" : "Result: 2.00000002"
+    },
+    {
+        "id": 10,
+        "operation" : "subtract",
+        "num1" : "2",
+        "num2" : "3",
+        "result" : "Result: -1"
+    },
+    {
+        "id": 11,
+        "operation" : "subtract",
+        "num1" : "-2",
+        "num2" : "3",
+        "result" : "Result: -5"
+    },
+    {
+        "id": 12,
+        "operation" : "subtract",
+        "num1" : "5",
+        "num2" : "3",
+        "result" : "Result: 2"
+    },
+    {
+        "id": 13,
+        "operation" : "subtract",
+        "num1" : "1.0000001",
+        "num2" : "1.0000001",
+        "result" : "Result: 0"
+    },
+    {
+        "id": 14,
+        "operation" : "subtract",
+        "num1" : "1.00000001",
+        "num2" : "1.00000001",
+        "result" : "Result: 0"
+    },
+    {
+        "id": 15,
+        "operation" : "multiply",
+        "num1" : "2",
+        "num2" : "3",
+        "result" : "Result: 6"
+    },
+    {
+        "id": 16,
+        "operation" : "multiply",
+        "num1" : "-2",
+        "num2" : "3",
+        "result" : "Result: -6"
+    },
+    {
+        "id": 17,
+        "operation" : "multiply",
+        "num1" : "-2",
+        "num2" : "-3",
+        "result" : "Result: 6"
+    },
+    {
+        "id": 18,
+        "operation" : "multiply",
+        "num1" : "1.0000001",
+        "num2" : "1.0000001",
+        "result" : "Result: 1.0000002"
+    },
+    {
+        "id": 19,
+        "operation" : "multiply",
+        "num1" : "1.00000001",
+        "num2" : "1.00000001",
+        "result" : "Result: 1"
+    },
+    {
+        "id": 20,
+        "operation" : "multiply",
+        "num1" : "1e308",
+        "num2" : "1e308",
+        "result" : "Result: ∞"
+    },
+    {
+        "id": 21,
+        "operation" : "multiply",
+        "num1" : "-1e308",
+        "num2" : "1e308",
+        "result" : "Result: -∞"
+    },
+    {
+        "id": 22,
+        "operation" : "multiply",
+        "num1" : "1e-8",
+        "num2" : "1e-8",
+        "result" : "Result: 1e-16"
+    },
+    {
+        "id": 23,
+        "operation" : "divide",
+        "num1" : "6",
+        "num2" : "3",
+        "result" : "Result: 2"
+    },
+    {
+        "id": 24,
+        "operation" : "divide",
+        "num1" : "6",
+        "num2" : "-2",
+        "result" : "Result: -3"
+    },
+    {
+        "id": 25,
+        "operation" : "divide",
+        "num1" : "-6",
+        "num2" : "-2",
+        "result" : "Result: 3"
+    },
+    {
+        "id": 26,
+        "operation" : "divide",
+        "num1" : "1.0000001",
+        "num2" : "1.0000001",
+        "result" : "Result: 1"
+    },
+    {
+        "id": 27,
+        "operation" : "divide",
+        "num1" : "1.00000001",
+        "num2" : "1.00000001",
+        "result" : "Result: 1"
+    },
+    {
+        "id": 28,
+        "operation" : "divide",
+        "num1" : "6",
+        "num2" : "0",
+        "result" : "Error: Cannot divide by zero"
+    },
+    {
+        "id": 29,
+        "operation" : "divide",
+        "num1" : "0",
+        "num2" : "6",
+        "result" : "Result: 0"
+    }
+]
