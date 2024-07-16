@@ -155,48 +155,55 @@
     },
     {
         "id": 23,
+        "operation" : "multiply",
+        "num1" : "1e8",
+        "num2" : "1e8",
+        "result" : "Result: 1e-16"
+    },
+    {
+        "id": 24,
         "operation" : "divide",
         "num1" : "6",
         "num2" : "3",
         "result" : "Result: 2"
     },
     {
-        "id": 24,
+        "id": 25,
         "operation" : "divide",
         "num1" : "6",
         "num2" : "-2",
         "result" : "Result: -3"
     },
     {
-        "id": 25,
+        "id": 26,
         "operation" : "divide",
         "num1" : "-6",
         "num2" : "-2",
         "result" : "Result: 3"
     },
     {
-        "id": 26,
+        "id": 27,
         "operation" : "divide",
         "num1" : "1.0000001",
         "num2" : "1.0000001",
         "result" : "Result: 1"
     },
     {
-        "id": 27,
+        "id": 28,
         "operation" : "divide",
         "num1" : "1.00000001",
         "num2" : "1.00000001",
         "result" : "Result: 1"
     },
     {
-        "id": 28,
+        "id": 29,
         "operation" : "divide",
         "num1" : "6",
         "num2" : "0",
         "result" : "Error: Cannot divide by zero"
     },
     {
-        "id": 29,
+        "id": 30,
         "operation" : "divide",
         "num1" : "0",
         "num2" : "6",
