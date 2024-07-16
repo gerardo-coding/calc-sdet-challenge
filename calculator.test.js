@@ -1,7 +1,7 @@
 import { exec } from 'child_process';
 import {execSync} from 'child_process';
 import { expect } from 'chai';
-import data from './testdata.json' assert { type: 'json' };
+import data from './data/testdata.json' assert { type: 'json' };
 
 const ERROR_INPUT_PARAMS = "Usage: cli-calculator operation operand1 operand2 Supported operations: add, subtract, multiply, divide";
 const ERROR_INVALID_NUMBER = "Invalid argument. Must be a numeric value.";
@@ -69,8 +69,13 @@ describe('Testing CLI Arithmetic Calculator', () => {
         expect(normalizedResult).to.equal(`${ERROR_INVALID_OPERATION} restore`);
     });
 
-    it('should return an error when onde of the parameters is not a number', async () => {
+    it('should return an error when one of the parameters is a letter', async () => {
         const { stdout } = await performCalculation('add', 't', '6');
         expect(stdout).to.equal(ERROR_INVALID_NUMBER);
+    });
+
+    it('should return NaN error when onde of the parameters is NaN', async () => {
+        const { stdout } = await performCalculation('add', 'NaN', '6');
+        expect(stdout).to.equal('Result: NaN');
     });
 });
