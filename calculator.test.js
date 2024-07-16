@@ -74,7 +74,7 @@ describe('Testing CLI Arithmetic Calculator', () => {
         expect(stdout).to.equal(ERROR_INVALID_NUMBER);
     });
 
-    it('should return NaN error when onde of the parameters is NaN', async () => {
+    it('should return NaN when one of the parameters is NaN', async () => {
         const { stdout } = await performCalculation('add', 'NaN', '6');
         expect(stdout).to.equal('Result: NaN');
     });
